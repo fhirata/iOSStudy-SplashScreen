@@ -13,12 +13,12 @@
 		2A9CBF601650C741007FC12A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF5E1650C741007FC12A /* InfoPlist.strings */; };
 		2A9CBF621650C741007FC12A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9CBF611650C741007FC12A /* main.m */; };
 		2A9CBF661650C741007FC12A /* SplashScreenAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9CBF651650C741007FC12A /* SplashScreenAppDelegate.m */; };
-		2A9CBF681650C741007FC12A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF671650C741007FC12A /* Default.png */; };
-		2A9CBF6A1650C741007FC12A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF691650C741007FC12A /* Default@2x.png */; };
-		2A9CBF6C1650C741007FC12A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF6B1650C741007FC12A /* Default-568h@2x.png */; };
 		2A9CBF6F1650C741007FC12A /* SplashScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9CBF6E1650C741007FC12A /* SplashScreenViewController.m */; };
 		2A9CBF721650C741007FC12A /* SplashScreenViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF701650C741007FC12A /* SplashScreenViewController_iPhone.xib */; };
 		2A9CBF751650C741007FC12A /* SplashScreenViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF731650C741007FC12A /* SplashScreenViewController_iPad.xib */; };
+		2A9CBF821650C836007FC12A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF7F1650C836007FC12A /* Default.png */; };
+		2A9CBF831650C836007FC12A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF801650C836007FC12A /* Default-568h@2x.png */; };
+		2A9CBF841650C836007FC12A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A9CBF811650C836007FC12A /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,13 +32,15 @@
 		2A9CBF631650C741007FC12A /* SplashScreen-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplashScreen-Prefix.pch"; sourceTree = "<group>"; };
 		2A9CBF641650C741007FC12A /* SplashScreenAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreenAppDelegate.h; sourceTree = "<group>"; };
 		2A9CBF651650C741007FC12A /* SplashScreenAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenAppDelegate.m; sourceTree = "<group>"; };
-		2A9CBF671650C741007FC12A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		2A9CBF691650C741007FC12A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		2A9CBF6B1650C741007FC12A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2A9CBF6D1650C741007FC12A /* SplashScreenViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SplashScreenViewController.h; sourceTree = "<group>"; };
 		2A9CBF6E1650C741007FC12A /* SplashScreenViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SplashScreenViewController.m; sourceTree = "<group>"; };
 		2A9CBF711650C741007FC12A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SplashScreenViewController_iPhone.xib; sourceTree = "<group>"; };
 		2A9CBF741650C741007FC12A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SplashScreenViewController_iPad.xib; sourceTree = "<group>"; };
+		2A9CBF7F1650C836007FC12A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2A9CBF801650C836007FC12A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2A9CBF811650C836007FC12A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2A9CBF851650C85E007FC12A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		2A9CBF871650C87E007FC12A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,8 @@
 		2A9CBF461650C741007FC12A = {
 			isa = PBXGroup;
 			children = (
+				2A9CBF871650C87E007FC12A /* Icon@2x.png */,
+				2A9CBF851650C85E007FC12A /* Icon.png */,
 				2A9CBF5B1650C741007FC12A /* SplashScreen */,
 				2A9CBF541650C741007FC12A /* Frameworks */,
 				2A9CBF521650C741007FC12A /* Products */,
@@ -100,12 +104,12 @@
 			isa = PBXGroup;
 			children = (
 				2A9CBF5D1650C741007FC12A /* SplashScreen-Info.plist */,
+				2A9CBF7F1650C836007FC12A /* Default.png */,
+				2A9CBF801650C836007FC12A /* Default-568h@2x.png */,
+				2A9CBF811650C836007FC12A /* Default@2x.png */,
 				2A9CBF5E1650C741007FC12A /* InfoPlist.strings */,
 				2A9CBF611650C741007FC12A /* main.m */,
 				2A9CBF631650C741007FC12A /* SplashScreen-Prefix.pch */,
-				2A9CBF671650C741007FC12A /* Default.png */,
-				2A9CBF691650C741007FC12A /* Default@2x.png */,
-				2A9CBF6B1650C741007FC12A /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,11 +167,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A9CBF601650C741007FC12A /* InfoPlist.strings in Resources */,
-				2A9CBF681650C741007FC12A /* Default.png in Resources */,
-				2A9CBF6A1650C741007FC12A /* Default@2x.png in Resources */,
-				2A9CBF6C1650C741007FC12A /* Default-568h@2x.png in Resources */,
 				2A9CBF721650C741007FC12A /* SplashScreenViewController_iPhone.xib in Resources */,
 				2A9CBF751650C741007FC12A /* SplashScreenViewController_iPad.xib in Resources */,
+				2A9CBF821650C836007FC12A /* Default.png in Resources */,
+				2A9CBF831650C836007FC12A /* Default-568h@2x.png in Resources */,
+				2A9CBF841650C836007FC12A /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
